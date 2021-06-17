@@ -31,6 +31,14 @@ $(document).ready(function(){
         });
     });
 
+    $("#para-button").hover(function(){
+        $("#block-5").css("background-image", "url(css/para.png)");
+    });
+      
+    $("#zumba-button").hover(function(){
+        $("#block-5").css("background-image", "url(css/zumba.png)");
+    });
+      
     $("#paws-button").hover(function(){
         $("#block-5").css("background-image", "url(css/paws.png)");
     });
