@@ -843,7 +843,7 @@ section {
       font-weight: 100;
       font-size: 3vmin;
       background-size: cover;
-      background-position: bottom;
+      background-position: 50% 75%;
       background-color: #121111;
       transition: 0.4s ease;
       display: block;
@@ -853,10 +853,14 @@ section {
 }
 
 @-webkit-keyframes test {
-      50% {background-position: top;}
+      0% {background-position: 50% 75%;}
+      50% {background-position: 50% 25%;}
+      100% {background-position: 50% 75%;}
   }
 @keyframes test {
-      50% {background-position: top;}
+      0% {background-position: 50% 75%;}
+      50% {background-position: 50% 25%;}
+      100% {background-position: 50% 75%;}
   }
 
 .mobile-header {
