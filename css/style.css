@@ -2372,256 +2372,6 @@ section {
 }
 }
 
-/*---------lingo racer----------*/
-
-.lingo {
-      overflow-x: hidden;
-      color: #FFFFFF;
-      display: grid;
-      background: #121111;
-      grid-template-columns: 50% 50%;
-      /grid-template-rows: 1fr 1fr;
-      grid-template-areas: 
-            "box1 box1"
-            "box2 box2"
-            "box3 box3"
-            "box4 box4"
-            "box5 box6"
-            "box7 box8"
-            "box9 box10"
-            "box11 box11"
-            "box12 box13"
-            "box14 box14"; 
-}
-
-.lingo img {
-      width: 100%;
-}
-
-.lingo .box1 {
-      grid-area: box1;
-      padding: 5vmin;
-      font-family: 'Optima Medium', sans-serif;
-      font-weight: 100;
-      font-size: 3vmin;
-}
-
-.lingo .box2 {
-      color: #6f62c4;
-      grid-area: box2;
-      font-family: 'Optima Medium', sans-serif;
-      font-weight: "regular";
-      font-size: 12vmin;
-      align-items: center;
-      text-align: center;
-      line-height: 1.2;
-      padding: 15vmin 5vmin 2vmin 5vmin;
-      z-index: 1;
-}
-.lingo .box3 {
-      grid-area: box3;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      line-height: 1.2;
-      padding: 2vmin 5vmin 2vmin 5vmin;
-      
-
-}
-.lingo .box4 {
-      grid-area: box4;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      line-height: 1.2;
-      padding: 2vmin 5vmin 20vmin 5vmin;
-}
-
-
-.lingo .box5 {
-      grid-area: box5;
-      padding: 5vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
-
-.lingo .box6 {
-      grid-area: box6;
-      padding: 5vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
-
-.lingo .box7 {
-      grid-area: box7;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4vmin;
-      display: flex;
-      padding: 15vmin 5vmin 5vmin 5vmin;
-}
-.lingo .box8 {
-      grid-area: box8;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.7vmin;
-      display: flex;
-      padding: 15vmin 15vmin 20vmin 5vmin;
-      line-height: 1.5;
-
-}
-.lingo .box9 {
-      grid-area: box9;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4vmin;
-      display: flex;
-      padding: 5vmin;
-
-}
-.lingo .box10 {
-      grid-area: box10;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.7vmin;
-      display: flex;
-      padding: 5vmin 15vmin 20vmin 5vmin;
-      line-height: 1.5;
-}
-.lingo .box11 {
-      grid-area: box11;
-      font-family: 'Optima Reg',sans-serif;
-      font-size: 9vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      white-space: nowrap;
-      overflow: hidden;
-      padding: 5vmin;
-      opacity: 50%;
-}
-.lingo .box12 {
-      grid-area: box12;
-      padding: 5vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
-
-.lingo .box13 {
-      grid-area: box13;
-      padding: 5vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
-.lingo .box14 {
-      grid-area: box14;
-      font-family: 'Optima Reg',sans-serif;
-      font-size: 2vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20vmin 5vmin 20vmin 5vmin;
-}
-
-@media screen and (max-width: 900px) {
-      .lingo {
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-areas: 
-            "box1"
-            "box2"
-            "box3"
-            "box4"
-            "box5"
-            "box6"
-            "box7"
-            "box8"
-            "box9"
-            "box10"
-            "box11"
-            "box12"
-            "box13"
-            "box14"; 
-      }
-      .lingo .box1 {
-      font-size: 15px;
-}
-      .lingo .box3 {
-      grid-area: box3;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      line-height: 1.2;
-      padding: 5vmin;
-      }
-      .lingo .box4 {
-      grid-area: box4;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      line-height: 1.2;
-      padding: 0vmin 5vmin 20vmin 5vmin;
-      }
-      .lingo .box6 {
-      grid-area: box6;
-      padding: 5vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
-      .lingo .box7 {
-      grid-area: box7;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4vmin;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 15vmin;
-}
-      .lingo .box8 {
-      grid-area: box8;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      display: flex;
-      padding: 5vmin 10vmin 20vmin 10vmin;
-      line-height: 1.5;
-
-}
-      .lingo .box9 {
-      grid-area: box9;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4vmin;
-      display: flex;
-      padding: 15vmin;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-
-}
-      .lingo .box10 {
-      grid-area: box10;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      display: flex;
-      padding: 5vmin 10vmin 20vmin 10vmin;
-      line-height: 1.5;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-}
-      .lingo .box14 {
-      font-size: 10px;
-}
-}
-
 /*---------melbourne----------*/
 
 .mel {
@@ -2906,14 +2656,14 @@ section {
       overflow-x: hidden;
       color: #FFFFFF;
       display: grid;
-      background: #121111;
+      background: black;
       grid-template-columns: 50% 50%;
       grid-template-areas: 
             "box1 box1"
             "box2 box2"
             "box3 box3"
             "box4 box4"
-            "box5 box6"
+            "box5 box5"
             "box7 box8"
             "box9 box10"
             "box11 box11"
@@ -2944,7 +2694,7 @@ section {
       line-height: 1.2;
       padding: 10vmin 5vmin 0vmin 5vmin;
       z-index: 1;
-      color: #6d93bd;
+      color: #CBB79D;
 }
 .sgm .box3 {
       grid-area: box3;
